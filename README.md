@@ -1,6 +1,8 @@
 # AR_Detection_Algorithm
 A rewrite/reimplementation of an AR detection algorithm by Kennett (2021) (see https://github.com/daemonkennett/ar_detection). This version uses xarray instead of iris, and updates the AR axis algorithm to follow the maximum IVT subject to direction constraints. 
 
+The 'header_aralgorithm', 'functions_aralgorithm', and 'main_aralgorithm' need to be put in the same folder.
+
 
 INPUTS:
 - netCDF files containing monthly zonal and meridional IVT components. Files must follow the filenaming convention 'yyyymm.nc' (e.g. '201601.nc' for January 2016), and they must contain the following netCDF variables:

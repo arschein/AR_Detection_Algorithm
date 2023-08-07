@@ -9,7 +9,7 @@ The 'header_aralgorithm', 'functions_aralgorithm', and 'main_aralgorithm' need t
 INPUTS:
 - netCDF files containing monthly zonal and meridional IVT components. Files must follow the filenaming convention 'yyyymm.nc' (e.g. '201601.nc' for January 2016), and they must contain the following netCDF variables:
     - 'lon': variable containing the longitudes of the grid
-    - 'lat': variable containing the latitudes of interest
+    - 'lat': variable containing the latitudes of the grid
     - 'IVTu_yyyymmddhh': variable(s) containing the zonal component of IVT in the region of interest, at the year (yyyy), month (mm), day (dd), and UTC hour (hh) of interest (e.g. 'IVTu_2016010100' for January 1st, 2016, at 00 UTC)
     - 'IVTv_yyyymmddhh': variable(s) containing the meridional component of IVT in the region of interest, at the year (yyyy), month (mm), day (dd), and UTC hour (hh) of interest (e.g. 'IVTv_2016010100' for January 1st, 2016, at 00 UTC)
 - A .nc file containing a mask for land (nonzero values) and sea (zero value). An example file for the ERA5 model can be found in this repository.

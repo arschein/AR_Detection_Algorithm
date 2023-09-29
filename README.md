@@ -25,4 +25,4 @@ INPUTS:
          - The mean direction of the object's IVT in degrees
          - The percentage of the object's cells which deviated more than 45 degrees from this mean direction
          - The deviation between the object's mean IVT direction and its orientation (defined as the straight line between the axis endpoints) in degrees
-    - If the 'regrid_final_results' flag is set to True, then the objects' shapes and axes will be regridded to the uder's defined grid using xESMF
+    - If the 'regrid_final_results' flag is set to True, then the objects' shapes and axes will be regridded to the user's defined grid using xESMF
